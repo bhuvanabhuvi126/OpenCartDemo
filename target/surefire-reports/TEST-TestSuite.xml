@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="61.024" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\test-classes;C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\classes;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\bhuva\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\bhuva\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bhuva\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bhuva\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bhuva\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\bhuva\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\bhuva\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\bhuva\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\bhuva\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bhuva\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\bhuva\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\bhuva\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\bhuva\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\bhuva\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\bhuva\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bhuva\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bhuva\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bhuva\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\bhuva\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bhuva\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bhuva\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bhuva\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bhuva\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\bhuva\AppData\Local\Temp\surefire7132668955781312237\surefirebooter-20241222174931466_3.jar C:\Users\bhuva\AppData\Local\Temp\surefire7132668955781312237 2024-12-22T17-49-31_275-jvmRun1 surefire-20241222174931466_1tmp surefire_0-20241222174931466_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\test-classes;C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\classes;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\bhuva\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\bhuva\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bhuva\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bhuva\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bhuva\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\bhuva\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\bhuva\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\bhuva\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\bhuva\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\bhuva\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bhuva\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\bhuva\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\bhuva\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\bhuva\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\bhuva\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\bhuva\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\bhuva\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\bhuva\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bhuva\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bhuva\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bhuva\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\bhuva\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bhuva\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bhuva\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bhuva\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bhuva\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bhuva\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bhuva"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bhuva\AppData\Local\Temp\surefire7132668955781312237\surefirebooter-20241222174931466_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="bhuva"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bhuva\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bhuva\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\bhuva\AppData\Local\Microsoft\WindowsApps;C:\Users\bhuva\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="registeraccount" classname="testcases.TC001_AccountRegistration" time="2.617">
+    <system-out><![CDATA[2024-12-22T12:19:32.806203600Z main INFO Starting configuration XmlConfiguration[location=C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\test-classes\log4j2.xml, lastModified=2024-12-17T14:14:07.321Z]...
+2024-12-22T12:19:32.809961300Z main INFO Start watching for changes to C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\test-classes\log4j2.xml every 0 seconds
+2024-12-22T12:19:32.811156600Z main INFO Configuration XmlConfiguration[location=C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\target\test-classes\log4j2.xml, lastModified=2024-12-17T14:14:07.321Z] started.
+2024-12-22T12:19:32.814963900Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3ba9ad43...
+2024-12-22T12:19:32.814963900Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3ba9ad43 stopped.
+17:49:32.882 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bhuva\eclipse-workspace\OpenCart\DemoProject\testng.xml"
+17:49:38.869 [main] INFO  testcases.TC001_AccountRegistration - Starting TC001
+17:49:40.014 [main] INFO  testcases.TC001_AccountRegistration - fname set
+17:49:40.249 [main] INFO  testcases.TC001_AccountRegistration - mail set
+17:49:40.528 [main] INFO  testcases.TC001_AccountRegistration - passwords set
+17:49:41.412 [main] INFO  testcases.TC001_AccountRegistration - Registered Successfully
+17:49:41.467 [main] INFO  testcases.TC001_AccountRegistration - TC001 Finished
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLogin" classname="testcases.TC002_LoginTest" time="1.647">
+    <system-out><![CDATA[17:49:44.931 [main] INFO  testcases.TC002_LoginTest - TC002 started...
+17:49:45.633 [main] INFO  testcases.TC002_LoginTest - username set
+17:49:45.744 [main] INFO  testcases.TC002_LoginTest - password set
+17:49:46.574 [main] INFO  testcases.TC002_LoginTest - TC002 Finished.
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT[cmk2@gmail.com, mani@123, valid](1)" classname="testcases.TC003_LoginDDT" time="2.004">
+    <system-out><![CDATA[17:49:50.009 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:50.013 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:50.018 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:50.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:50.840 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:50.845 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:50.891 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:50.893 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:50.895 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:50.940 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:50.942 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:50.943 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:50.974 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:50.975 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:50.977 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.011 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.012 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.015 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.054 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.056 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.058 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.095 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.096 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.098 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.159 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.161 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.164 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.250 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.251 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.254 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.311 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.313 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.314 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.399 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.400 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.403 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.471 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.481 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.483 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.547 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.550 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.552 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.600 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.602 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.604 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.656 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.668 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.672 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.703 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:49:51.707 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:49:51.710 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:49:51.737 [main] INFO  testcases.TC003_LoginDDT - TC003 started
+17:49:51.898 [main] INFO  testcases.TC003_LoginDDT - TC003 CLicked myaccount
+17:49:52.454 [main] INFO  testcases.TC003_LoginDDT - TC003 username set
+17:49:52.568 [main] INFO  testcases.TC003_LoginDDT - TC003 password set
+17:49:53.745 [main] INFO  testcases.TC003_LoginDDT - TC003 account has been logged out
+17:49:53.746 [main] INFO  testcases.TC003_LoginDDT - TC003 finished
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT[cnk7@gmail.com, mani@124, invalid](2)" classname="testcases.TC003_LoginDDT" time="11.256">
+    <system-out><![CDATA[17:49:53.750 [main] INFO  testcases.TC003_LoginDDT - TC003 started
+17:49:53.860 [main] INFO  testcases.TC003_LoginDDT - TC003 CLicked myaccount
+17:49:54.407 [main] INFO  testcases.TC003_LoginDDT - TC003 username set
+17:49:54.518 [main] INFO  testcases.TC003_LoginDDT - TC003 password set
+17:50:05.001 [main] INFO  testcases.TC003_LoginDDT - TC003 finished
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT[cnk4@gmail.com, mani@125, invalid](3)" classname="testcases.TC003_LoginDDT" time="11.494">
+    <system-out><![CDATA[17:50:05.009 [main] INFO  testcases.TC003_LoginDDT - TC003 started
+17:50:05.220 [main] INFO  testcases.TC003_LoginDDT - TC003 CLicked myaccount
+17:50:05.762 [main] INFO  testcases.TC003_LoginDDT - TC003 username set
+17:50:05.912 [main] INFO  testcases.TC003_LoginDDT - TC003 password set
+17:50:16.500 [main] INFO  testcases.TC003_LoginDDT - TC003 finished
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT[cmk3@gmail.com, mani@123, valid](4)" classname="testcases.TC003_LoginDDT" time="2.519">
+    <system-out><![CDATA[17:50:16.504 [main] INFO  testcases.TC003_LoginDDT - TC003 started
+17:50:16.777 [main] INFO  testcases.TC003_LoginDDT - TC003 CLicked myaccount
+17:50:17.326 [main] INFO  testcases.TC003_LoginDDT - TC003 username set
+17:50:17.430 [main] INFO  testcases.TC003_LoginDDT - TC003 password set
+17:50:19.020 [main] INFO  testcases.TC003_LoginDDT - TC003 account has been logged out
+17:50:19.021 [main] INFO  testcases.TC003_LoginDDT - TC003 finished
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT[cnk6@gmail.com, mani@127, invalid](5)" classname="testcases.TC003_LoginDDT" time="11.445">
+    <system-out><![CDATA[17:50:19.025 [main] INFO  testcases.TC003_LoginDDT - TC003 started
+17:50:19.184 [main] INFO  testcases.TC003_LoginDDT - TC003 CLicked myaccount
+17:50:19.713 [main] INFO  testcases.TC003_LoginDDT - TC003 username set
+17:50:19.834 [main] INFO  testcases.TC003_LoginDDT - TC003 password set
+17:50:30.466 [main] INFO  testcases.TC003_LoginDDT - TC003 finished
+]]></system-out>
+  </testcase>
+</testsuite>
